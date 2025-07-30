@@ -105,7 +105,7 @@ default_NA_df <- data.frame(
 #'
 #' @return Either the original object if not NULL, or default_NA_df if NULL
 #'
-#' @author Craig Ilebrumfield
+#' @author Craigile J. Brumfield, CFA
 #' @family utility-functions
 #'
 #' @examples
@@ -129,7 +129,7 @@ replace_null_with_na <- function(a_x) {
 #'
 #' @return Character string containing the model ID
 #'
-#' @author Craig Ilebrumfield
+#' @author Craigile J. Brumfield, CFA
 #' @family api-functions
 #'
 #' @examples
@@ -157,7 +157,7 @@ get_model_id <- function(model_name) {
 #'
 #' @return Numeric vector of unique round numbers
 #'
-#' @author Craig Ilebrumfield
+#' @author Craigile J. Brumfield, CFA
 #' @family api-functions
 #'
 #' @examples
@@ -185,7 +185,7 @@ get_round_numbers <- function(data) {
 #'
 #' @return Data frame with flattened performance data filtered for mmc and fnc_v4
 #'
-#' @author Craig Ilebrumfield
+#' @author Craigile J. Brumfield, CFA
 #' @family data-processing
 #'
 #' @details
@@ -246,7 +246,7 @@ process_dataquery <- function(data) {
 #'
 #' @return Logical value: TRUE if processing succeeded, FALSE if failed
 #'
-#' @author Craig Ilebrumfield
+#' @author Craigile J. Brumfield, CFA
 #' @family main-functions
 #'
 #' @details
@@ -308,7 +308,7 @@ safely_process_model <- function(model_name) {
 #'
 #' @return Named logical vector indicating success (TRUE) or failure (FALSE) for each model
 #'
-#' @author Craig Ilebrumfield
+#' @author Craigile J. Brumfield, CFA
 #' @family main-functions
 #'
 #' @details
